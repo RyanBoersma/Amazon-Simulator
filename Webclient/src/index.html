@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>HBO-ICT Jaar 2 Periode 1</title>
+	</head>
+	<body style="margin:0px;padding:0px;overflow:hidden;">
+		<div class="frame">
+			<div id="viewContainer">
+				<canvas></canvas>
+			</div>
+
+			<div id="uiContainer">
+				<h3>Websocket status:</h3><p id="websocketStatus">DISCONNECTED</p>
+				<input id="checkboxHappyMode" type="checkbox">Happy mode</input>
+				<br>
+				<br>
+				<button id="btnRestartSimulation">Restart simulation</button>
+				<br>
+				<br>
+				<p>WASD to move laterally. Space & Shift to go Up and Down.</p>
+				<p>Left click + Mouse to look around.</p>
+				<p>Ctrl + Y to show/hide this window</p>
+				<br>
+				<br>
+				<p>Trucks will drive in constantly (Red points)</p> 
+				<p>They contain storageunits that need to be unloaded and put into storage (Yellow points). They also request for some storageunits to be loaded</p>
+				<p>Available robots will transport those storageunits.</p>
+				<p>Robots have a battery. Once it is (nearly) empty they will have to charge (Green points).</p>
+				<p>Robots will try to avoid each other, but to due the performance impact of fully resolving a set of collisions, a 'good enough' path that contains collisions could be chosen.</p>
+			</div>
+		</div>
+	</body>
+</html>

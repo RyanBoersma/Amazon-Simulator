@@ -1,0 +1,18 @@
+- Webclient -
+Have Node installed
+Open a command prompt in the Webclient directory
+Run 'npm run start'
+A browser window should open on localhost
+(Chrome works better than Firefox, from our tests)
+
+
+- Server -
+Use preferred editor/IDE to run the Java project and/or its tests
+Hosted webserver should redirect to the webclient URL
+
+
+- Graphtool -
+Install LÖVE
+Open a command prompt in the GraphGenerator directory
+Run 'lovec .'
+Output will be saved in '%appdata%/LOVE/GraphGenerator/graph.json'
